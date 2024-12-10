@@ -1,0 +1,63 @@
+.text-wrapper {
+  font-weight: 400;
+  text-align: left;
+  width: 600px;
+  height: 100px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-size: 20px;
+}
+
+.header {
+  width: 540px;
+  height: 165px;
+}
+
+.header h1 {
+  font-size: 10rem;
+  font-weight: 400;
+  height: fit-content;
+  margin: 0;
+  font-family: "Bellefair", serif;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-left: 2rem;
+  padding-top: 6rem;
+  padding-left: 5rem;
+}
+
+.explore-btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  font-weight: 400;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0B0D17;
+  font-size: 30px;
+  border: none;
+}
+
+.sub-title h2 {
+  font-size: 2rem;
+}
+
+@media (width <= 768px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-wrapper .header h1 {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

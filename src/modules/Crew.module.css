@@ -1,0 +1,49 @@
+.main-wrapper {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.text-wrapper {
+  width: 450px;
+}
+.text-wrapper h1 {
+  font-size: 60px;
+}
+.text-wrapper h2 {
+  font-size: 50px;
+}
+
+.img-wrapper img {
+  height: 600px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-inside {
+  border: transparent;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.button-inside:hover {
+  background: grey;
+}
+
+.button-inside-text {
+  color: white;
+}
+
+/*# sourceMappingURL=Crew.module.css.map */

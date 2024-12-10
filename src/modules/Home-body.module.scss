@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-position:center;
+  background-size: cover;
+  background-image: url("../assets/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  margin:0;
+}
+//@media (width < 768px){
+//  .wrapper{
+//;
+//    background-position:center;
+//    background-size: cover;
+//    background-image: url("../assets/background-home-desktop.jpg");
+//    margin:0;
+//  }
+//}

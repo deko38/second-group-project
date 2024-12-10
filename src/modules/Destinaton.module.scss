@@ -1,0 +1,59 @@
+
+.main-wrapper{
+  margin: 100px auto;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  gap: 100px;
+}
+
+.text-wrapper{
+  width: 450px;
+
+}
+.button-inside {
+  border: transparent;
+  text-align: center;
+  background-color: transparent;
+  width: 70px;
+  height: 50px;
+}
+
+.button-inside:hover{
+  border-bottom: 2px solid white;
+}
+
+.button-inside-text{
+  color: #ffff;
+}
+
+
+
+.buttons{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-text{
+  display:flex;
+  position: absolute;
+  left: 70%;
+  transform: translate(-60%);
+  width: fit-content;
+}
+.distant-time{
+  display: flex;
+  gap: 30px;
+}
+
+.top-text{
+  display: flex;
+  gap: 10px;
+  margin-left: 4rem;
+}
+
+.dif-text{
+  color: dimgrey;
+}

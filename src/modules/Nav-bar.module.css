@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+nav li {
+  padding: 1rem;
+  margin: 0 1rem;
+}
+nav li a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  list-style: none;
+  font-size: 1.2rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(137, 138, 145, 0.09);
+}
+nav ul span {
+  font-weight: 700;
+}
+
+.line {
+  z-index: 1765;
+  width: 500px;
+}
+
+/*# sourceMappingURL=Nav-bar.module.css.map */
